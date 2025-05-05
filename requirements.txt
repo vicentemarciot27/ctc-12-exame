@@ -1,3 +1,4 @@
 gymnasium
+gymnasium[mujoco]
 numpy
 matplotlib

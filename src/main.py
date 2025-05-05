@@ -54,7 +54,7 @@ def main():
     Função principal do programa.
     """
     # Criar e configurar ambiente
-    env = criar_ambiente(render_mode='human')
+    env = criar_ambiente(render_mode='human', width=1280, height=960)
     
     try:
         # Executar episódio

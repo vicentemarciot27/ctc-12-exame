@@ -1,16 +1,21 @@
 import gymnasium as gym
 
-def criar_ambiente(render_mode=None):
+def criar_ambiente(render_mode=None, width=1024, height=768):
     """
     Cria e configura o ambiente Pusher.
     
     Args:
         render_mode (str, opcional): Modo de renderização ('human' ou None)
+        width (int, opcional): Largura da janela de renderização em pixels
+        height (int, opcional): Altura da janela de renderização em pixels
     
     Returns:
         env: Ambiente Pusher configurado
     """
-    return gym.make('Pusher-v5', render_mode=render_mode)
+    return gym.make('Pusher-v5', 
+                   render_mode=render_mode,
+                   width=width,
+                   height=height)
 
 def reset_ambiente(env):
     """
