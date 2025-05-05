@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs e bancos de dados
+*.log
+*.sqlite3
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de dados
+*.npy
+*.npz
+*.pkl
+
+# Arquivos de teste
+.coverage
+htmlcov/
+.pytest_cache/
